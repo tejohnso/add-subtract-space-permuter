@@ -39,7 +39,7 @@ module.exports = {
 
     while (idx < arr.length) {
       if (arr[idx] === joiner) {
-        newArr[newArr.length - 1]  = Number("" + newArr[newArr.length - 1] + arr[idx + 1]);
+        newArr[newArr.length - 1] = Number("" + newArr[newArr.length - 1] + arr[idx + 1]);
         idx += 2;
       } else {
         newArr.push(arr[idx]);
