@@ -22,4 +22,6 @@ For example: 1 + 2 + 34 – 5 + 67 – 8 + 9 = 100.
 mocha test
 
 #### Run it:
-node solution.js
+node solution1.js
+
+node solution2.js
